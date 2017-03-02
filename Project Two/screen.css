@@ -1,0 +1,46 @@
+html {
+  font-family: sans-serif;
+}
+
+header, footer {
+  font-size: 90%;
+  text-align: center;
+}
+
+body {
+  line-height: 2rem;
+  color: #4d4d4d; /* grey color */
+  margin: 0 0 0 0; 
+}
+
+nav > ul, footer {
+    background-color: #f2f2f2; /* light gray background */
+    font-style: italic;
+}
+
+nav > ul {
+    color: #f2f2f2; /* same color with header,footer background */
+}
+
+section > p {
+        color: #000000;
+}
+
+h1 {
+  color: #107b35; /* dark greenish color */
+  margin-left: 0.5rem;
+}
+
+h2 {
+  color: #4dad4a; /* light greenish color */
+  margin-left: 0.8rem;
+}
+
+h3 {
+  font-style: italic;
+  margin-left: 1.2rem;
+}
+
+p {
+  margin-left: 1.5rem;
+}

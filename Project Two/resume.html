@@ -3,6 +3,31 @@
   <head>
     <meta charset="utf-8">
     <title>Professional Resume</title>
+    <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="screen.css">
+    <style>
+      body {
+        width: 60%;
+        height: 60%;
+      }
+      
+      /* min-width media query */
+      /* Change the body size bigger if the viewport is 500 pixels wide or wider: */
+      @media screen and (min-width: 500px) {
+        body {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      
+      #education, #pInfo, #experience, #skill {
+        color: #4d4d4d;
+      }
+      
+      p > strong {
+        font-size: 1.1rem;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -43,8 +68,8 @@
                  (This app supports only Korean language)
               </p>
               <p>Introduction Video for SimPool (Korean) : </p>
-              <iframe width="560" height="315"
-                      src="https://www.youtube.com/embed/J3XAA_A9Aiw" allowfullscreen>
+              <iframe width="560" height="310"
+                      src="https://www.youtube.com/embed/J3XAA_A9Aiw" id="youtube" allowfullscreen>
               </iframe>
             </li>
           </ul>       
