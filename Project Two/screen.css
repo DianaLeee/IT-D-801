@@ -44,3 +44,19 @@ h3 {
 p {
   margin-left: 1.5rem;
 }
+
+/* resume.html */
+#education, #pInfo, #experience, #skill {
+  color: #4d4d4d;
+}
+
+/* index.html */
+section#welcome_message {
+  font-style: italic;
+  margin-left: 1.2rem;
+}
+
+/* self_introduce.html */
+section#myself {
+  color: #4d4d4d;
+}
